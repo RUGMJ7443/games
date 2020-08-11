@@ -1,12 +1,41 @@
-<h1> Welcome To Matthew And Evans Games! </h1>
-<p> This is the place where you can play all our games! When we make new games they will be found here!</p>
-<ul>
-<li>
-    <a href='blob'>Blob!</li>
-        <a href="1v1">Rectangle War!</a>
-    <li>
-        <a href='' onclick="alert('More games are coming soon ask Matthew Or Evan to make a new game!')">More Coming Soon!</a></li>
+<!DOCTYPE html>
+<html lang="en">
 
-</ul>
-<p>If you have a suggestion for a game or update to a game ask Matthew Or Evan!</p>
-<p style='font-size: small;'>Website made by Matthew 2020</p>
+<head>
+    <script src="script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>&#x2728;Matthew And Evans Games!&#x2728;</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>&#x2728;Matthew And Evans Games!&#x2728;</h1>
+        <ul id="gamesList">
+            <li class="game" onclick="switchGame('blob')">
+                <h2>Blob!</h2>
+                <img src="imgs/blob.png">
+                <p>A platformer game! Take blob to the boss and defeat him</p>
+            </li>
+            <li class="game" onclick="switchGame('1v1')">
+                <h2>Rectangle Wars!</h2>
+                <img src="imgs/1v1.png">
+                <p>Plug in your two controllers and 1v1 against your friend!</p>
+            </li>
+            <li class="info">
+                <h2>More Coming Soon!</h2>
+                <p>Watch out for more games and updates!</p>
+            </li>
+            <li class="info">
+                <h2>Suggestions!</h2>
+                <p>Speak to Matthew or Evan if you have a suggestion for a game or update</p>
+            </li>
+
+        </ul>
+
+    </div>
+</body>
+
+</html>
