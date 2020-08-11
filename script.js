@@ -9,4 +9,4 @@ function switchGame(game) {
 
 function schoolMode() {
   $('.notSafeForSchool').remove();
-}
+};
