@@ -4,5 +4,5 @@ function switchGame(game) {
   li.appendChild(document.createTextNode("Loading..."));
   ul.appendChild(li);
   li.classList.add("info");
-    location.href = game;
+    location.href = `${game}`;
 }
