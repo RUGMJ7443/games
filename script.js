@@ -6,3 +6,7 @@ function switchGame(game) {
   li.classList.add("info");
     location.href = `${game}`;
 }
+
+function schoolMode() {
+  $('.notSafeForSchool').remove();
+}

@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="script.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,12 +15,16 @@
     <div class="container">
         <h1>&#x2728;Matthew And Evans Games!&#x2728;</h1>
         <ul id="gamesList">
+            <li class="info notSafeForSchool" onclick="schoolMode()">
+                <h2>School Mode!</h2>
+                <p>Click me to remove games that arent safe for school</p>
+            </li>
             <li class="game" onclick="switchGame('blob')">
                 <h2>Blob!</h2>
                 <img src="imgs/blob.png">
                 <p>A platformer game! Take blob to the boss and defeat him</p>
             </li>
-            <li class="game" onclick="switchGame('1v1')">
+            <li class="game notSafeForSchool" onclick="switchGame('1v1')">
                 <h2>Rectangle Wars!</h2>
                 <img src="imgs/1v1.png">
                 <p>Plug in your two controllers and 1v1 against your friend!</p>
