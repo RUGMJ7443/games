@@ -4,7 +4,7 @@ function switchGame(game) {
   li.appendChild(document.createTextNode("Loading..."));
   ul.appendChild(li);
   li.classList.add("info");
-    location.href = `${game}`;
+      window.location.assign(`https://rugmj7443.github.io/games/${game}`);
 }
 
 function schoolMode() {
